@@ -41,7 +41,8 @@ h2 {
 nav {
     width: 100%;
     background: #f0f0f0;
-    /*background-image: url(images/burlap_cropped.jpg);*/
+    /*background-image: url("images/burlap_cropped.jpg");*/
+    /*height:150px;*/
     border: 1px solid #ccc;
     border-right: none;
 }
@@ -72,4 +73,7 @@ nav ul li a {
     text-decoration: none;
     color: #616161;
     padding: 10px 0;
+    font-family: aLittleSunshine;
+    font-variant: small-caps;
+    font-size: 150%;
 }
