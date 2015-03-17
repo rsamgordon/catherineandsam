@@ -1,0 +1,40 @@
+@font-face {
+	font-family: jandaScript;
+	src: url(janda_stylish_script/JandaStylishScript.ttf);
+}
+
+@font-face {
+	font-family: aLittleSunshine;
+	src: url(a_little_sunshine/a_little_sunshine.ttf);
+}
+
+@font-face {
+	font-family: monkeyScratches;
+	src: url(djb_monkey_scratches/djb_monkey_scratches.ttf);
+}
+
+@font-face {
+	font-family: simon_script;
+	src: url(simon_script/SimonScript.ttf);
+}
+
+
+@font-face {
+	font-family: bergamot;
+	src: url(bergamot/Bergamot_Ornaments.ttf);
+}
+
+
+h1 {
+	font-family: simon_script;
+	font-size: 500%;
+	font-variant: small-caps;
+	margin-left: 50px;
+}
+
+h2 {
+	font-family: jandaScript;
+	font-size:250%;
+	text-align: center;
+}
+
