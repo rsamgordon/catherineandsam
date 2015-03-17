@@ -30,17 +30,23 @@ h1 {
 	font-size: 500%;
 	font-variant: small-caps;
 	margin-left: 50px;
+	color: #474747;
 }
 
 h2 {
 	font-family: jandaScript;
 	font-size:250%;
 	text-align: center;
+	color: #474747;
+}
+
+html {
+	background-color: #F5ECCE;
 }
 
 nav {
     width: 100%;
-    background: #f0f0f0;
+    background: #3F3F6C;
     /*background-image: url("images/burlap_cropped.jpg");*/
     /*height:150px;*/
     border: 1px solid #ccc;
@@ -71,7 +77,7 @@ nav ul li:first-child {
 nav ul li a {
     display: block;
     text-decoration: none;
-    color: #616161;
+    color: #e6e6e6;
     padding: 10px 0;
     font-family: aLittleSunshine;
     font-variant: small-caps;
