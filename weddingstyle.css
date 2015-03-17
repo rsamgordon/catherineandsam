@@ -29,7 +29,8 @@ h1 {
 	font-family: simon_script;
 	font-size: 500%;
 	font-variant: small-caps;
-	margin-left: 50px;
+	/*margin-left: 50px;*/
+	text-align: center;
 	color: #474747;
 }
 
