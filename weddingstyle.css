@@ -38,64 +38,38 @@ h2 {
 	text-align: center;
 }
 
-.banner:after .banner:before {
-	margin-top:0.5em;
-    content: "";
-    float:left;
-    border:1.5em solid #fff;
+nav {
+    width: 100%;
+    background: #f0f0f0;
+    /*background-image: url(images/burlap_cropped.jpg);*/
+    border: 1px solid #ccc;
+    border-right: none;
 }
-
-.banner:after {
-    border-right-color:transparent;
+ 
+nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
-
-.banner:before {
-    border-left-color:transparent;
+ 
+nav ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #ccc;
+    width: 16.6667%; /* fallback for non-calc() browsers */
+    width: calc(100% / 6);
+    box-sizing: border-box;
 }
-
-.banner a:link, .banner a:visited { 
-    color:#000;
-    text-decoration:none;
-    float:left;
-    height:3.5em;
-    overflow:hidden;
+ 
+nav ul li:first-child {
+    border-left: none;
 }
-
-.banner span {
-    background:#fff8DC;
-    display:inline-block;
-    line-height:3em;
-    padding:0 1em;
-    margin-top:0.5em;
-    position:relative;
-
-    -webkit-transition: background-color 0.2s, margin-top 0.2s;  /* Saf3.2+, Chrome */
-    -moz-transition: background-color 0.2s, margin-top 0.2s;  /* FF4+ */
-    -ms-transition: background-color 0.2s, margin-top 0.2s;  /* IE10 */
-    -o-transition: background-color 0.2s, margin-top 0.2s;  /* Opera 10.5+ */
-    transition: background-color 0.2s, margin-top 0.2s;
+ 
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #616161;
+    padding: 10px 0;
 }
-
-.banner a:hover span {
-    background:#FFD204;
-    margin-top:0;
-}
-
-.banner span:before {
-    content: "";
-    position:absolute;
-    top:3em;
-    left:0;
-    border-right:0.5em solid #9B8651;
-    border-bottom:0.5em solid #fff;
-}
-
-.banner span:after {
-    content: "";
-    position:absolute;
-    top:3em;
-    right:0;
-    border-left:0.5em solid #9B8651;
-    border-bottom:0.5em solid #fff;
-}
-
