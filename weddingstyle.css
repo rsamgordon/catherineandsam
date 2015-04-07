@@ -84,3 +84,11 @@ nav ul li a {
     font-variant: small-caps;
     font-size: 150%;
 }
+
+nav ul li:hover {
+	background: #797998;
+}
+
+nav ul li:hover a {
+	color: #ebebeb;
+}
