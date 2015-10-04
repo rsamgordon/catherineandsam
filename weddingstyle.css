@@ -1,31 +1,56 @@
 @font-face {
 	font-family: jandaScript;
-	src: url(janda_stylish_script/JandaStylishScript.ttf);
+	src: url(fonts/janda_stylish_script/JandaStylishScript.ttf);
 }
 
 @font-face {
 	font-family: aLittleSunshine;
-	src: url(a_little_sunshine/a_little_sunshine.ttf);
+	src: url(fonts/a_little_sunshine/a_little_sunshine.ttf);
 }
 
 @font-face {
 	font-family: monkeyScratches;
-	src: url(djb_monkey_scratches/djb_monkey_scratches.ttf);
+	src: url(fonts/djb_monkey_scratches/djb_monkey_scratches.ttf);
 }
 
 @font-face {
 	font-family: simon_script;
-	src: url(simon_script/SimonScript.ttf);
+	src: url(fonts/simon_script/SimonScript.ttf);
 }
 
 
 @font-face {
 	font-family: bergamot;
-	src: url(bergamot/Bergamot_Ornaments.ttf);
+	src: url(fonts/bergamot/Bergamot_Ornaments.ttf);
+}
+
+@font-face {
+    font-family: wedding-bells;
+    src: url(fonts/wedding_bells/WeddingBells.ttf);
+}
+
+@font-face {
+    font-family: scriptina;
+    src: url(fonts/scriptina/SCRIPTIN.ttf);
+}
+
+@font-face {
+    font-family: money;
+    src: url(fonts/money_money/MoneyMoney.ttf);
+}
+
+@font-face {
+    font-family: frenchpress;
+    src: url(fonts/frenchpress/Frenchpress.otf);
+}
+
+@font-face {
+    font-family: typewriter;
+    src: url(fonts/typerwriter/aflfont.ttf);
 }
 
 
-h1 {
+h1.title {
 	font-family: simon_script;
 	font-size: 500%;
 	font-variant: small-caps;
@@ -34,11 +59,18 @@ h1 {
 	color: #474747;
 }
 
-h2 {
+h2.comingsoon {
 	font-family: jandaScript;
 	font-size:250%;
 	text-align: center;
 	color: #474747;
+}
+
+h3.navbar {
+    font-family: money;
+    font-size: 250%;
+    text-align: center;
+    color: #474747;
 }
 
 html {
